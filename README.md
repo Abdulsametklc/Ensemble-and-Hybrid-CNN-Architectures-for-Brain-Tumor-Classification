@@ -60,20 +60,6 @@ to ensure fair and consistent comparison.
 
 ## 🏗️ Model Architecture Overview
 
-### General Processing Flow
-Input MRI Image
-↓
-Preprocessing & Normalization
-↓
-CNN Backbone A ─┐
-├─ Feature Fusion
-CNN Backbone B ─┘
-↓
-Fully Connected Layers
-↓
-Softmax Output
-
-
 ### Key Architectural Components
 - Pretrained CNN backbones
 - Adaptive Average Pooling
@@ -126,29 +112,6 @@ and clinical relevance.
 - Matplotlib (visualization)
 - CUDA (GPU acceleration)
 
-### Experiment Management
-- Google Colab
-- Git & GitHub
-- Git LFS (Large File Storage)
-
----
-
-## 📁 Project Structure
-├── data/
-│ └── dataset (external)
-├── models/
-│ ├── hybrid_models/
-│ └── baseline_models/
-├── training/
-│ └── train.py
-├── evaluation/
-│ └── metrics.py
-├── results/
-│ ├── plots/
-│ └── confusion_matrices/
-├── README.md
-└── requirements.txt
-
 ---
 
 ## 🚀 Key Contributions
@@ -171,7 +134,7 @@ and clinical relevance.
 ## 👨‍💻 Author
 Abdulsamet Kılıç  
 Computer Engineering  
-Artificial Intelligence and Deep Learning Researcher
+Introduction to Artificial Intelligence Course Term Project
 
 ---
 
